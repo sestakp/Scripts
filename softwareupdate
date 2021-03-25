@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+sudo snap refresh
+sudo apt update
+sudo apt upgrade
+sudo apt update -f
+sudo apt clean
+sudo apt update --fix-missing
+sudo apt autoremove
+sudo rm -rf ~/.cache/thumbnails/*
+echo Update and cleaning complete!
